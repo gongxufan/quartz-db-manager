@@ -135,13 +135,13 @@
 
     <el-dialog title="添加任务" :visible.sync="dialogFormVisible">
         <el-form :model="form">
-            <el-form-item label="任务名称" label-width="120px" style="width:35%">
+            <el-form-item label="任务名称" label-width="120px" style="width:100%">
                 <el-input v-model="form.jobName" auto-complete="off"></el-input>
             </el-form-item>
-            <el-form-item label="任务分组" label-width="120px" style="width:35%">
+            <el-form-item label="任务分组" label-width="120px" style="width:100%">
                 <el-input v-model="form.jobGroup" auto-complete="off"></el-input>
             </el-form-item>
-            <el-form-item label="表达式" label-width="120px" style="width:35%">
+            <el-form-item label="表达式" label-width="120px" style="width:100%">
                 <el-input v-model="form.cronExpression" auto-complete="off"></el-input>
             </el-form-item>
         </el-form>
