@@ -58,3 +58,9 @@ NORMAL
 
 # 获取状态实现方法
 `org.quartz.impl.jdbcjobstore.JobStoreSupport.getTriggerState(java.sql.Connection, org.quartz.TriggerKey)`
+# snapshot
+![Image add](https://github.com/gongxufan/quartz-manage/blob/master/snapshot/add.png)
+
+![Image list](https://github.com/gongxufan/quartz-manage/blob/master/snapshot/list.png)
+
+
